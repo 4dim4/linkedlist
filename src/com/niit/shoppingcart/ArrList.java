@@ -9,7 +9,7 @@ public class ArrList {
 	LinkedList<EmployeeDetails> list=new LinkedList<EmployeeDetails>();
 	list.add(new EmployeeDetails("Tim",3000));
 	list.add(new EmployeeDetails("Jim",7000));
-	list.add(new EmployeeDetails("Dim",2000));
+	list.add(new EmployeeDetails("Dim",1000));
 	Collections.sort(list, new MySalaryComp());
 	for(EmployeeDetails e:list) {
 		System.out.println(e.getEmpName());
